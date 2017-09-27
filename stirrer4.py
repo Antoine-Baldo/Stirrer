@@ -9,7 +9,7 @@ n = 1
 
 # Setpoint temperatures 
 # You can add or change the temperature (between 25 and 350 celsuis degree)
-T=n*[48,50]
+T=n*[48,52]
 
 # Time steps delta_t
 # You can add or change the time (in second) between two temperature
