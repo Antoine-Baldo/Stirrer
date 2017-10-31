@@ -119,7 +119,9 @@ for i in range(len(T)):
 	save = save +1
 
 	# Pause wanted
-	time.sleep(delta_t[i]) 
+	for j in xrange(delta_t[i],0,-1):
+		time.sleep(1)
+		print j
 	
 	print 'Timer of %d second is done' % delta_t[i]
 
